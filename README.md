@@ -2,11 +2,11 @@
 A Java Spring Boot CRUD web API for students.
 
 ## Usage
-* `GET /student` gets a list of students 
-* `GET /student/{id}` gets a specific student
-* `POST /student` creates a new student
-* `PUT /student/{id}` updates an old student or creates a new student(if the student does not exist)
-* `DELETE /student/{id}` deletes a specific student
+* `GET http://www.localhost:8080/student` gets a list of students 
+* `GET http://www.localhost:8080/student/{id}` gets a specific student
+* `POST http://www.localhost:8080/student` creates a new student
+* `PUT http://www.localhost:8080/student/{id}` updates an old student or creates a new student(if the student does not exist)
+* `DELETE http://www.localhost:8080/student/{id}` deletes a specific student
 
 ## Setup Prerequisite
 * Postgres 9.6+
